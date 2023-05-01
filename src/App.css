@@ -56,6 +56,7 @@
 }
 
 .section-description{
+  padding: 0% 15%;
   color: rgb(194,255,255);
   margin-top: 20px;
   text-shadow: 0 0 10px rgb(194,255,255), 0 0 20px rgb(194,255,255), 0 0 30px rgb(127,0,151), 0 0 40px rgb(127,0,151), 0 0 50px rgb(127,0,151), 0 0 60px rgb(127,0,151), 0 0 70px rgb(127,0,151);
@@ -172,6 +173,10 @@
 }
 
 @media screen and (max-width: 1281px) {
+
+  .section-description{
+    padding: 0%;
+  }
 
   .links{
     margin-left: 0rem;
