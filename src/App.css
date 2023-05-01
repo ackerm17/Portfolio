@@ -203,24 +203,12 @@
     display:inherit
   }
 
-  .section-list{
-    max-width: 100%;
-  }
-
-  .list-div{
-    width: 150%;
-  }
-
-  .about-list-div{
-    width: 120%;
+  .section{
+    padding: 10%;
   }
 
   .section-text{
     text-align: center;
   }
-
-  .message-div{
-    width: 200%;
-  }
-
+  
 }
