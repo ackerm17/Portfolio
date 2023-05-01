@@ -13,13 +13,16 @@ const ThisSite = () => {
                 <h2 className='section-text'>Portfolio Website</h2>
             </div>
             <div className='section-description'>
-                <a href='https://github.com/ackerm17/Portfolio' className='features'>Github</a>
+                <div className='features'>
+                    <a href='https://github.com/ackerm17/Portfolio' className='features'>Github</a>
+                </div>
                 <h1 className='features'>Features</h1>
-                
-                <ul className='section-list'>
-                    <li>Embedded youtube videos demonstrating projects</li>
-                    <li>Automatic Email system for contacting me</li>
-                </ul>
+                <div className='section-content list-div'>
+                    <ul className='section-list'>
+                        <li>Embedded youtube videos demonstrating projects</li>
+                        <li>Automatic Email system for contacting me</li>
+                    </ul>
+                </div>
             </div>
         </div>
     )

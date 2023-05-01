@@ -45,17 +45,19 @@ function ContactForm() {
                 <h2 className='section-text'>Your message</h2>
             </div>
             <div className='section-content'>
-                <textarea
-                    className={isZoomed ? 'zoom' : ''}
-                    onClick={handleTextAreaClick}
-                    id="message"
-                    name="message"
-                    />
-                <ValidationError 
-                    prefix="Message" 
-                    field="message"
-                    errors={state.errors}
-                    />
+                <div className='message-div section-content'>
+                    <textarea
+                        className={isZoomed ? 'zoom' : ''}
+                        onClick={handleTextAreaClick}
+                        id="message"
+                        name="message"
+                        />
+                    <ValidationError 
+                        prefix="Message" 
+                        field="message"
+                        errors={state.errors}
+                        />
+                </div>
             </div>
             <div className='section-content'>
                 <button className='submit' type="submit" disabled={state.submitting}>

@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
   height: 100%;
   width: 100%;
 }
@@ -25,6 +26,10 @@
 
 .Spacer{
   width: 150px;
+}
+
+.Spacer1{
+  width: 20px;
 }
 
 .Aboutme{
@@ -45,7 +50,6 @@
 }
 
 .section-content{
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,6 +75,7 @@
 
 .section-list{
   font-size: 1.5rem;
+  max-width: 60%;
 }
 
 .video{
@@ -110,6 +115,7 @@
 
 .Vibes {
   font-family: 'Mr. Dafoe', sans-serif;
+  display: flex;
 }
 
 @font-face {
@@ -163,4 +169,60 @@
   border: none;
   border-radius: 25px;
   box-shadow: 0 0 10px rgb(60,7,68), 0 0 20px rgb(122,11,145), 0 0 30px rgb(222,201,250);
+}
+
+@media screen and (max-width: 1281px) {
+  .section-description{
+    margin-left: 0%;
+  }
+
+  .features{
+    text-align: center;
+  }
+
+  .links{
+    margin-left: 0rem;
+  }
+
+  .Aboutme-intro{
+    min-width: 100%;
+    text-align: center;
+  }
+
+  .Aboutme-description{
+    margin-right: -50%;
+  }
+
+  .Profile{
+    margin-left: -50%;
+  }
+
+}
+
+@media screen and (max-width: 541px) {
+  
+  .Vibes{
+    display:inherit
+  }
+
+  .section-list{
+    max-width: 100%;
+  }
+
+  .list-div{
+    width: 150%;
+  }
+
+  .about-list-div{
+    width: 120%;
+  }
+
+  .section-text{
+    text-align: center;
+  }
+
+  .message-div{
+    width: 200%;
+  }
+
 }

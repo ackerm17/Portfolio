@@ -131,7 +131,9 @@ const Navbar = () => {
 
             <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
                 <Box className='Vibes'>
-                    Benjamin Ackerman Web Developer
+                    <h4>Benjamin Ackerman</h4>
+                    <div className='Spacer1'></div>
+                    <h4>Web Developer</h4>
                 </Box>
             </Typography>
             {auth && (
