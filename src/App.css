@@ -181,6 +181,14 @@
 
 }
 
+.glow{
+  font-size: 5rem;
+  color: rgb(194,255,255);
+  text-align: center;
+  text-shadow: 0 0 10px rgb(194,255,255), 0 0 20px rgb(194,255,255), 0 0 30px rgb(127,0,151), 0 0 40px rgb(127,0,151), 0 0 50px rgb(127,0,151), 0 0 60px rgb(127,0,151), 0 0 70px rgb(127,0,151);
+
+}
+
 @media screen and (max-width: 541px) {
   
   .Vibes{
