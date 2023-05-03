@@ -41,7 +41,7 @@
 
 .Aboutme-description{
   color: rgb(194,255,255);
-  text-shadow: 0 0 10px rgb(194,255,255), 0 0 20px rgb(194,255,255), 0 0 30px rgb(127,0,151), 0 0 40px rgb(127,0,151), 0 0 50px rgb(127,0,151), 0 0 60px rgb(127,0,151), 0 0 70px rgb(127,0,151);
+  text-shadow: 0 0 10px rgb(194,255,255),  0 0 20px rgb(127,0,151);
 
 }
 
@@ -59,7 +59,7 @@
   padding: 0% 15%;
   color: rgb(194,255,255);
   margin-top: 20px;
-  text-shadow: 0 0 10px rgb(194,255,255), 0 0 20px rgb(194,255,255), 0 0 30px rgb(127,0,151), 0 0 40px rgb(127,0,151), 0 0 50px rgb(127,0,151), 0 0 60px rgb(127,0,151), 0 0 70px rgb(127,0,151);
+  text-shadow: 0 0 10px rgb(194,255,255),  0 0 20px rgb(127,0,151);
 }
 
 .features{
@@ -80,13 +80,13 @@
 }
 
 .video{
-  box-shadow: 0 0 10px  rgb(195,255,255), 0 0 20px  rgb(195,255,255), 0 0 30px rgb(93,1,107), 0 0 40px rgb(93,1,107);
+  box-shadow: 0 0 10px  rgb(195,255,255), 0 0 20px rgb(93,1,107);
 }
 
 .section-text{
   color: rgb(194,255,255);
   margin-bottom: 20px;
-  text-shadow: 0 0 10px rgb(194,255,255), 0 0 20px rgb(194,255,255), 0 0 30px rgb(127,0,151), 0 0 40px rgb(127,0,151), 0 0 50px rgb(127,0,151), 0 0 60px rgb(127,0,151), 0 0 70px rgb(127,0,151);
+  text-shadow: 0 0 10px rgb(194,255,255),  0 0 20px rgb(127,0,151);
 }
 
 
@@ -185,7 +185,7 @@
   font-size: 5rem;
   color: rgb(194,255,255);
   text-align: center;
-  text-shadow: 0 0 10px rgb(194,255,255), 0 0 20px rgb(194,255,255), 0 0 30px rgb(127,0,151), 0 0 40px rgb(127,0,151), 0 0 50px rgb(127,0,151), 0 0 60px rgb(127,0,151), 0 0 70px rgb(127,0,151);
+  text-shadow: 0 0 10px rgb(194,255,255), 0 0 70px rgb(127,0,151);
 
 }
 
