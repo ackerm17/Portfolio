@@ -46,7 +46,7 @@ const Navbar = () => {
     <Box sx={{ flexGrow: 1 }}>
         <AppBar position="fixed" 
             sx={{
-                background: 'linear-gradient(to bottom, rgb(12, 17, 47, 1), rgb(12, 17 ,47, 0))',
+                background: 'rgb(0,0,0,0)',
                 color: 'rgb(191,247,255)',
                 
             }}>
@@ -71,7 +71,7 @@ const Navbar = () => {
                     '& .MuiDrawer-paper': {
                     width: drawerWidth,
                     boxSizing: 'border-box',
-                    background: 'linear-gradient(to right, rgb(12, 17, 47, 1), rgb(12, 17 ,47, 0))',
+                    background: 'rgb(0,0,0,0)',
                     color: 'rgb(25,147,229)'
                     },
                 }}
