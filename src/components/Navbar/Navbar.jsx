@@ -19,7 +19,7 @@ import FormControl from '@mui/material/FormControl';
 import App from "../../App";
 
 const Navbar = () => {
-    const drawerWidth = 240;
+    const drawerWidth = 200;
     const [auth, setAuth] = React.useState(true);
     const [drawerOpen, setDrawerOpen] = React.useState(false);
     const [selectedOption, setSelectedOption] = React.useState('Radiant-Apparel');
