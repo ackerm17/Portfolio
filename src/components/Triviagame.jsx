@@ -28,6 +28,17 @@ const TriviaGame = () => {
                         <li>Validation using regex and letter count</li>
                     </ul>
                 </div>
+                <h1 className='features'>Technologies</h1>
+                <div className='section-content list-div'>
+                    <ul className='section-list'>
+                        <li>Python</li>
+                        <li>MySQL</li>
+                        <li>Flask</li>
+                        <li>Open Trivia DB API</li>
+                        <li>BootStrap</li>
+                        <li>HTML, CSS, JavaScript</li>
+                    </ul>
+                </div>
             </div>
         </div>
     )

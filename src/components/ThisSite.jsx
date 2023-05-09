@@ -21,6 +21,16 @@ const ThisSite = () => {
                     <ul className='section-list'>
                         <li>Embedded youtube videos demonstrating projects</li>
                         <li>Automatic Email system for contacting me</li>
+                        <li>Responsive CSS so mobile, tablet, and desktop users can use the site with ease</li>
+                    </ul>
+                </div>
+                <h1 className='features'>Technologies</h1>
+                <div className='section-content list-div'>
+                    <ul className='section-list'>
+                        <li>Vite/React</li>
+                        <li>Material UI</li>
+                        <li>FormSpree</li>
+                        <li>HTML, CSS, Javascript</li>
                     </ul>
                 </div>
             </div>

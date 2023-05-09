@@ -31,6 +31,15 @@ const RadiantApparel = () => {
                         <li>Search feature in store</li>
                     </ul>
                 </div>
+                <h1 className='features'>Technologies</h1>
+                <div className='section-content list-div'>
+                    <ul className='section-list '>
+                        <li>Java</li>
+                        <li>Spring Suite</li>
+                        <li>Stripe API</li>
+                        <li>Html, CSS, JavaScript</li>
+                    </ul>
+                </div>
             </div>
         </div>
     )
